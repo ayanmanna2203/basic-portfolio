@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1> Forms</h1>
+    <div>
+        <form action="welcome.html" target="_blank">
+            <label for="full name">Full Name</label>
+            <input type="text" id="full name" placeholder="Enter your name" required>
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <br><br>
+
+            <label for="checkbox">terms and condition</label>
+            <input type="checkbox" id="checkbox">
+            <br><br>
+
+            <label for="number">phone number</label>
+            <input type="number" id="number" placeholder="Enter your phone number" required min="0">
+            <br><br>
+
+            <label for="gender">Gender</label>
+            <label for="male">male</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender">
+            <br><br>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob">
+            <br><br>
+
+            <label for="photo">Uplod Photo</label>
+            <input type="file" id="photo" > 
+            <br><br>
+            <label for="city">Select your city</label>
+             <select name="city" id="city">
+                <option value="delhi">Delhi</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="kolkata">Kolkata</option>
+                <option value="chennai">Chennai</option>
+             </select>
+
+            <br><br>
+
+            <button type="submit">submit form</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
